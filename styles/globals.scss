@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Karla:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;400;500;700;900&display=swap');
+
+@import './vars.scss';
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    text-decoration: none;
+
+    list-style: none;
+    outline: none;
+    border: none;
+
+    font-family: Open Sans, Roboto, Karla, JetBrains, sans-serif;
+
+    transition: 0.4s all;
+
+    background: $backgroundColor;
+    color: $textColor;
+
+    * {
+        background: transparent;
+    }
+}
